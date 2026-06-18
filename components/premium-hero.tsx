@@ -68,11 +68,11 @@ export function PremiumHero() {
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="inline-flex items-center space-x-3 bg-luxury-gold/10 backdrop-blur-md border-2 border-luxury-gold/30 rounded-full px-8 py-4 glow-gold"
+                className="inline-flex items-center space-x-3 bg-luxury-gold/20 backdrop-blur-md border-2 border-luxury-gold/50 rounded-full px-8 py-4 shadow-2xl"
               >
                 <Sparkles className="w-6 h-6 text-luxury-gold animate-pulse" />
-                <span className="text-luxury-cream font-semibold text-lg">
-                  Award-Winning Luxury Wedding Decor
+                <span className="text-white font-bold text-lg drop-shadow-lg">
+                  Luxury Wedding Decor Specialists
                 </span>
               </motion.div>
 
@@ -111,7 +111,7 @@ export function PremiumHero() {
                 <Button
                   variant="premium"
                   size="xl"
-                  className="group shadow-2xl text-xl px-16 py-8 h-auto"
+                  className="group shadow-2xl text-xl px-16 py-8 h-auto font-bold"
                   asChild
                 >
                   <Link href="/contact">
@@ -122,7 +122,7 @@ export function PremiumHero() {
                 <Button
                   variant="outline"
                   size="xl"
-                  className="border-2 border-luxury-cream text-luxury-cream hover:bg-luxury-cream hover:text-luxury-charcoal backdrop-blur-md bg-luxury-charcoal/20 shadow-xl font-semibold text-xl px-16 py-8 h-auto"
+                  className="border-2 border-white text-white hover:bg-white hover:text-luxury-charcoal backdrop-blur-md bg-white/10 shadow-2xl font-bold text-xl px-16 py-8 h-auto"
                   asChild
                 >
                   <Link href="/portfolio">View Our Work</Link>
@@ -136,7 +136,7 @@ export function PremiumHero() {
                 transition={{ duration: 0.8, delay: 1 }}
                 className="flex flex-wrap items-center gap-8 pt-8"
               >
-                <div className="flex items-center space-x-3">
+                <div className="flex items-center space-x-3 bg-white/10 backdrop-blur-md rounded-full px-6 py-3 border border-white/20">
                   <div className="flex -space-x-1">
                     {[1, 2, 3, 4, 5].map((i) => (
                       <Star
@@ -145,16 +145,16 @@ export function PremiumHero() {
                       />
                     ))}
                   </div>
-                  <span className="text-luxury-cream/90 font-semibold text-lg">
+                  <span className="text-white font-bold text-lg drop-shadow-lg">
                     500+ Celebrations
                   </span>
                 </div>
-                <div className="h-10 w-px bg-luxury-cream/30" />
-                <div className="text-luxury-cream/90 font-semibold text-lg">
+                <div className="h-10 w-px bg-white/30" />
+                <div className="text-white font-bold text-lg drop-shadow-lg bg-white/10 backdrop-blur-md rounded-full px-6 py-3 border border-white/20">
                   Trusted Across UK
                 </div>
-                <div className="h-10 w-px bg-luxury-cream/30" />
-                <div className="text-luxury-cream/90 font-semibold text-lg">
+                <div className="h-10 w-px bg-white/30" />
+                <div className="text-white font-bold text-lg drop-shadow-lg bg-white/10 backdrop-blur-md rounded-full px-6 py-3 border border-white/20">
                   10+ Years Experience
                 </div>
               </motion.div>
